@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Sour Gummy', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.container>.nav-left {
+    backdrop-filter: blur(5px);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 100vh;
+    width: 15%;
+    border-radius: 20px;
+    margin: 7.5px;
+}
+
+.container>.nav-left>ul>li,
+.container>.nav-left>ul>li>a {
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+    font-size: 18px;
+    padding: 7.5px 5px;
+}
+
+
+.container>.nav-left>ul>li:hover>i,
+.container>.nav-left>ul>li:hover>a {
+    color: white;
+    transition:ease 1.5s;
+    font-weight:350;
+}
+
+.container>.home{
+    margin-top:10px;
+    margin-left:250px;
+    margin-right:15px;
+    margin-bottom:15px;
+    border-radius:20px;
+    backdrop-filter:blur(5px);
+    height:200vh;
+    width:100%;
+    padding:10px 15px;
+}
+
+.container>.home>center>h1>span{
+    text-decoration:underline;
+}
+
+/*home*/
+
+.home>center>.welcome-window{
+    background-color: transparent;
+    padding:5px;
+    margin-top:7.5px;
+    margin-bottom: 5px; 
+    border-radius:15px;
+    /*border:solid 2px white;*/
+    width:90%;
+    display:flex;
+    flex-direction:column;
+}
+
+.home>center>.welcome-window>.title-row{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.github,
+.snap{
+    padding:5px;
+    border-radius:5px;
+    background-color: transparent;
+    border:solid 2px white;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+}
