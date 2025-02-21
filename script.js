@@ -3,5 +3,5 @@ document.getElementById('github').addEventListener('click', function(){
 });
 
 document.getElementById('snap').addEventListener('click', function(){
-    window.location.href = "https://www.snapchat.com/add/AniOuy";
+    window.location.href = "https://www.google.com/";
 });
