@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,34 +8,81 @@
     <link rel="stylesheet" href="style.css">
     <title>My Homepage - Anis Ouyahya | Web Developer</title>
 </head>
+
 <body>
     <div class="container">
         <div class="nav-left">
             <ul type="none">
-                <li><i class='bx bxs-home'></i><a href="#home">Home</a></li>
-                <li><i class='bx bxs-bar-chart-alt-2'></i><a href="#">Projects & Skils</a></li>
-                <li><i class='bx bx-money-withdraw'></i><a href="#">Hire me!</a></li>
+                <li>
+                    <a href="#home">
+                        <i class='bx bxs-home'></i>
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-bar-chart-alt-2'></i>
+                        <p>Projekts, Skills, etc.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-money-withdraw'></i>
+                        <p>Hire me!</p>
+                    </a>
+                </li>
             </ul>
         </div>
         <section id="home" class="home">
             <center>
                 <div class="welcome-window">
                     <div class="title-row">
-                        <div class="title-row-left"><h1>Welcome,</h1></div>
+                        <div class="title-row-left">
+                            <h1>Welcome,</h1>
+                        </div>
                         <div class="title-row-right">
-                            <button class="github" id="github"><i class='bx bxl-github' ></i></button>
-                            <button class="snap" id="snap"><i class='bx bxl-snapchat' ></i></button>
+                            <button class="github" id="github"><i class='bx bxl-github'></i></button>
+                            <!--<button class="snap" id="snap"><i class='bx bxl-snapchat' ></i></button>-->
                         </div>
                     </div>
-                    <div class="text-welcome">my name is Anis Ouyahya. I'm student at Pater Damian Sekundarschool and I'm interested in IOS software engineering and web development.</div>
-                </div>
-                <div class="more">
-                    <h1>More about me!</h1>
-                    <p>I'm 15 years old and I live in Belgium. I've been interested in IT since I was little because my uncle is a game developer in Canada and he was and still is someone I admire. First I started with Python (standard, GUI etc.), then I got into web development and now I said "why not just build a whole site about me!" and this is the result.</p>
+                    <div class="text-welcome">
+                        <p>my name is Anis Ouyahya. I'm student at Pater-Damian secundary school and
+                            I'm interested in IOS software development and web development.</p>
+                    </div>
+                    <br>
+                    <div class="more">
+                        <h1>More about me!</h1>
+                        <p>I'm 15 years old and I live in Belgium. I've been interested in IT since I was little because
+                            my uncle is a game developer in Canada and he was and still is someone I admire. First I
+                            started with Python (Beginner Stuff, GUI, etc.), then I got into web development and now I
+                            said "Why not just build a whole site about me!" and this is the result.</p>
+                    </div>
+                    <div class="working-style-con">
+                        <h1>Working-Flow</h1>
+                        <!--maybe in little cons with white borders, using more space to the down and the the width; style: top title in with and unterneeth a symbol in grey witch corresponde with the title-->
+                        <ol type="1">
+                            <li>Planning and searching text and images(when not given)</li>
+                            <li>Creating Design (when not given)</li>
+                            <li>Coding</li>
+                            <li>Fine-tuning</li>
+                        </ol>
+                    </div>
                 </div>
             </center>
         </section>
+        <!--
+        <section class="skills">
+            <div class="section-bar">
+                <div class="skill">
+
+                    <i class='bx bxl-html5'></i>
+                    <p class="description"></p>
+                </div>
+            </div>
+        </section>
+        -->
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
