@@ -65,7 +65,7 @@ body {
     padding-right: 15px;
     padding-bottom: 15px;
     margin-left: 5px;
-    height: 200vh;
+    height: 160vh;/**/
     width: 83%;
 }
 
@@ -126,23 +126,100 @@ body {
 .home>center>.welcome-window>.working-style-con {
     text-align: left;
     padding: 10px 0px;
-    margin-top:20px;
+    margin-top: 20px;
     width: 90%;
 }
 
-.home>center>.welcome-window>.working-style-con>ol {
-    margin: 10px 15px;
+.home>center>.welcome-window>.working-style-con>ul,
+.home>center>.welcome-window>.working-style-con>ul>li {
+    width: 100%;
 }
 
-.home>center>.welcome-window>.working-style-con>ol>li {
-    margin: 2.5px 0px;
-    padding: 0;
-    font-size: 15px;
+.home>center>.welcome-window>.working-style-con>ul>li {
+    display: flex;
+    flex-direction: row;
 }
 
-.home>center>.welcome-window>.working-style-con>ol>li:hover {
-    transition: all 1.2s ease;
-    transform: scale(1.10);
+.home>center>.welcome-window>.working-style-con>ul>li>div {
+    background-color: transparent;
+    border: solid 2px white;
+    text-align: center;
+    margin: 20px 10px;
+    padding: 15px 22.5px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.home>center>.welcome-window>.working-style-con>ul>li>div>h3 {
+    font-size: 25px;
+}
+
+.home>center>.welcome-window>.working-style-con>ul>li>div>p {
+    margin-top: 2.5px;
+}
+
+.home>center>.welcome-window>.working-style-con>ul>li>div:hover {
+    color: rgb(32, 32, 32);
+    background-color: white;
+    transition: all 2s ease; /* Increased duration for slower effect */
+}
+
+.home>center>.welcome-window>.working-style-con>ul>li>div:hover>h3 {
+    text-decoration: underline;
+    transition: all 1.25s ease;
+}
+
+/**/
+
+/*over bouth list-stacks*/
+.fun-facts>ul>li,
+.tech-stack>ul>li{
+    font-size:14.5px;
+}
+
+.fun-facts {
+    margin-top: 20px;
+    padding: 0px 10px;
+    text-align: left;
+    width: 90%;
+}
+
+.fun-facts>h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.fun-facts>ul {
+    /*list-style-type: "🔸 ";*/
+    padding-left: 20px;
+}
+
+.fun-facts>li {
+    margin-bottom: 5px;
+}
+/**/
+
+.tech-stack {
+    margin-top: 20px;
+    padding: 10px;
+
+    padding-bottom: 0px;
+    text-align: left;
+    width: 90%;
+}
+
+.tech-stack>h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tech-stack>ul {
+    /*list-style-type: "💡 ";*/
+    padding-left: 20px;
+}
+
+.tech-stack>li {
+    margin-bottom: 5px;
 }
 
 
@@ -181,19 +258,3 @@ body {
         margin-left: 0;
     }
 }
-
-/*
-@media(max-width:2560px) {
-    h1{
-        font-size:45px;
-    }
-
-    p, a{
-        font-size:30px;
-    }
-
-    .container>.nav-left>ul>li>a>i{
-        font-size: 35px;
-    }
-}
-*/
