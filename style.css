@@ -218,6 +218,13 @@ body {
     padding-left: 20px;
 }
 
+/*motto*/
+.motto>h4{
+    /*font-family: "Pompiere", sans-serif;*/
+    font-size:35px;
+    margin:25px 0px;
+}
+
 .tech-stack>li {
     margin-bottom: 5px;
 }
